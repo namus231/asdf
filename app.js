@@ -10,7 +10,7 @@ firebase.initializeApp(firebaseConfig);
 const db = firebase.database();
 const dbRef = db.ref("messages");
 
-const blacklist = ["시발", "ㅅㅂ", "ㅈㄴ", "병신", "멍청이"];
+const blacklist = ["시발", "ㅅㅂ", "ㅈㄴ", "병신", "멍청이","ㅂㅅ","씨발","지랄", "ㅈㄹ"];
 
 function filterMessage(msg) {
   for (let word of blacklist) {
